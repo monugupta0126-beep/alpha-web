@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #050505; color: white; font-family: 'Inter', sans-serif; }
+        .glass-card { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); }
+        .purple-gradient { background: linear-gradient(135deg, #7C3AED 0%, #5B21B6 100%); }
+        /* Screenshot jaisa hollow text effect */
+        .outline-text { 
+            color: transparent; 
+            -webkit-text-stroke: 1px rgba(255,255,255,0.2); 
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen p-6">
+
+    <div class="flex items-center space-x-2 text-[10px] font-mono mb-12 tracking-[0.2em] text-gray-500 uppercase">
+        <span class="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span>
+        <span>Pyrogram Userbot • Live</span>
+        <span class="text-purple-500 ml-2">@Xd_Demozbot</span>
+    </div>
+
+    <div class="text-center mb-12">
+        <h1 class="text-8xl font-[900] italic leading-[0.85] uppercase tracking-tighter">
+            PBX<br>
+            <span class="text-purple-600">BOT</span><br>
+            <span class="outline-text">4.0</span>
+        </h1>
+        <p class="mt-8 text-gray-400 max-w-[280px] mx-auto text-xs leading-relaxed opacity-80">
+            Multi-session Telegram userbot — music streaming, spam, group management, media saving, and VC sessions.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-2 gap-3 w-full max-w-sm mb-20">
+        <a href="https://t.me/Xd_Demozbot" class="purple-gradient col-span-1 flex items-center justify-center py-4 rounded-xl font-bold text-sm shadow-xl shadow-purple-950/20">
+            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.14-.26.26-.54.26l.213-3.05 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/></svg>
+            Start Bot
+        </a>
+        <a href="#" class="glass-card flex items-center justify-center py-4 rounded-xl font-medium text-sm text-gray-300">
+            Sessions ↗
+        </a>
+        <a href="#" class="glass-card flex items-center justify-center py-4 rounded-xl font-medium text-sm text-gray-300">
+            Commands ↗
+        </a>
+        <a href="#" class="glass-card flex items-center justify-center py-4 rounded-xl font-medium text-sm text-gray-600">
+            ⚠ Notes
+        </a>
+    </div>
+
+    <div class="w-full max-w-md space-y-4 pt-10 border-t border-white/5">
+        
+        <div class="grid grid-cols-2 gap-4">
+            <a href="https://t.me/Speedy_Gs" class="flex items-center space-x-3 p-3 glass-card rounded-xl">
+                <div class="p-2 bg-blue-600/10 rounded-full text-blue-500">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.14-.26.26-.54.26l.213-3.05 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/></svg>
+                </div>
+                <div class="overflow-hidden">
+                    <p class="text-[10px] font-bold uppercase text-gray-200">TG Group</p>
+                    <p class="text-[9px] text-gray-500 truncate">@Speedy_Gs</p>
+                </div>
+            </a>
+
+            <a href="https://t.me/AIpha_World" class="flex items-center space-x-3 p-3 glass-card rounded-xl">
+                <div class="p-2 bg-blue-600/10 rounded-full text-blue-500">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.14-.26.26-.54.26l.213-3.05 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/></svg>
+                </div>
+                <div>
+                    <p class="text-[10px] font-bold uppercase text-gray-200">Updates</p>
+                    <p class="text-[9px] text-gray-500">@AIpha_World</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="flex justify-between items-center px-2 py-1">
+            <a href="https://t.me/Alpha_Monu" class="text-[11px] text-gray-400 hover:text-purple-500 transition">Owner: @Alpha_Monu</a>
+            <a href="#" class="text-[11px] text-gray-400 hover:text-white transition">GitHub: AlphaMonu</a>
+        </div>
+
+        <div class="grid grid-cols-4 gap-2 pt-8 text-center">
+            <div><p class="text-xl font-bold text-purple-600">67+</p><p class="text-[8px] text-gray-600 uppercase">Plugins</p></div>
+            <div><p class="text-xl font-bold text-purple-600">359</p><p class="text-[8px] text-gray-600 uppercase">Cmds</p></div>
+            <div><p class="text-xl font-bold text-purple-600">7</p><p class="text-[8px] text-gray-600 uppercase">Sess</p></div>
+            <div><p class="text-xl font-bold text-purple-600">∞</p><p class="text-[8px] text-gray-600 uppercase">Power</p></div>
+        </div>
+
+        <p class="text-center text-[9px] text-gray-800 mt-10 tracking-[0.3em] uppercase">
+            ALPHA 4.0 © 2026 • Pyrogram • Vercel
+        </p>
+    </div>
+
+</body>
+</html>
